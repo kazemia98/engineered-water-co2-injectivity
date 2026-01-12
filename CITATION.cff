@@ -1,0 +1,37 @@
+cff-version: 1.2.0
+message: "If you use this repository, please cite it using the metadata below."
+type: software
+title: "engineered-water-co2-injectivity: PHREEQC-based kinetic screening of engineered-water conditioning for CO2 storage injectivity"
+abstract: >
+  PHREEQC-based kinetic screening workflow for engineered-water pre-conditioning in deep saline aquifers.
+  Includes PHREEQC templates and Python automation for simulation execution and KPI computation
+  (storage readiness proxy, early-time injectivity risk metrics, Pareto screening, and Sustainability Index).
+authors:
+  - family-names: "Kazemi"
+    given-names: "Alireza"
+    affiliation: "Sultan Qaboos University"
+repository-code: "https://github.com/kazemia98/engineered-water-co2-injectivity"
+url: "https://github.com/kazemia98/engineered-water-co2-injectivity"
+license: "MIT"
+keywords:
+  - "CO2 storage"
+  - "saline aquifer"
+  - "PHREEQC"
+  - "geochemical kinetics"
+  - "injectivity"
+  - "scaling risk"
+  - "engineered water"
+  - "Pareto analysis"
+  - "sustainability index"
+version: "0.1.0"
+date-released: "2026-01-12"
+preferred-citation:
+  type: software
+  title: "engineered-water-co2-injectivity: PHREEQC-based kinetic screening of engineered-water conditioning for CO2 storage injectivity"
+  authors:
+    - family-names: "Kazemi"
+      given-names: "Alireza"
+  version: "0.1.0"
+  date-released: "2026-01-12"
+  url: "https://github.com/kazemia98/engineered-water-co2-injectivity"
+

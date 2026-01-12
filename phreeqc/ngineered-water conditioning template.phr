@@ -1,0 +1,36 @@
+TITLE Engineered-water conditioning template
+
+SOLUTION 1
+    temp      60
+    pH        7.2
+    units     mmol/kgw
+    Na        {Na}
+    Cl        {Cl}
+    Ca        {Ca}
+    Mg        {Mg}
+    K         {K}
+    Alkalinity {ALK} as HCO3
+    Si        {SI} as SiO2
+    S(6)      {SO4} as SO4
+END
+
+EQUILIBRIUM_PHASES 1
+    CO2(g)   -1.5  10
+END
+
+KINETICS
+    Calcite
+    Dolomite
+    Chalcedony
+    Albite
+    K-feldspar
+    Illite
+    Muscovite
+    Pyrite
+    Anhydrite
+END
+
+KINETICS
+    -steps 1 10 100 1000 10000
+    -cvode true
+END

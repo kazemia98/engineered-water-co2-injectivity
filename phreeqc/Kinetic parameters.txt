@@ -1,0 +1,11 @@
+# Kinetic parameters
+
+Mineral kinetic rate laws follow standard Transition State Theory formulations.
+
+Sources:
+- Palandri & Kharaka (2004)
+- Lasaga (1998)
+- Xu et al. (2004)
+
+Temperature dependence implemented via Arrhenius expressions.
+Reactive surface areas scaled dynamically with remaining mineral mass.

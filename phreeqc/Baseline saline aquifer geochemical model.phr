@@ -1,0 +1,41 @@
+TITLE Baseline saline aquifer geochemical model
+
+SOLUTION 1
+    temp      60
+    pH        7.2
+    pe        4
+    units     mmol/kgw
+    Na        35000
+    Cl        54000
+    Ca        1200
+    Mg        800
+    K         300
+    Alkalinity 250 as HCO3
+    Si        25 as SiO2
+    S(6)      1500 as SO4
+END
+
+EQUILIBRIUM_PHASES 1
+    CO2(g)   -1.5  10
+END
+
+KINETICS
+    Calcite
+    Dolomite
+    Chalcedony
+    Albite
+    K-feldspar
+    Illite
+    Muscovite
+    Pyrite
+    Anhydrite
+END
+
+RATES
+    # kinetic rate laws
+END
+
+KINETICS
+    -steps 1 10 100 1000 10000
+    -cvode true
+END
